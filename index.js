@@ -4,13 +4,13 @@
 1 kilogram = 2.204 pound
 */
 
-let convertBtn = document.getElementById("convert-btn");
-let input = document.getElementById("input-text");
-let convertLength = document.getElementById("convert-length");
-let convertVolume = document.getElementById("convert-volume");
-let convertMass = document.getElementById("convert-mass");
-let errorText = document.getElementById("error-text");
-let errorMessage = "You must input a valid number, please try again";
+const convertBtn = document.getElementById("convert-btn");
+const input = document.getElementById("input-text");
+const convertLength = document.getElementById("convert-length");
+const convertVolume = document.getElementById("convert-volume");
+const convertMass = document.getElementById("convert-mass");
+const errorText = document.getElementById("error-text");
+const errorMessage = "You must input a valid number, please try again";
 
 convertBtn.addEventListener("click", function () {
   let inputNum = parseFloat(input.value);
