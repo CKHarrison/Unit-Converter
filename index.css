@@ -59,6 +59,10 @@ body {
   margin-bottom: 2em;
 }
 
+.btn:hover {
+  cursor: pointer;
+}
+
 .info {
   background: var(--conversion--background-color);
   height: 70vh;
